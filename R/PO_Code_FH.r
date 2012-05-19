@@ -217,7 +217,7 @@ if( p.mod.mat$mixture == "Beta.mixture" ){
     p.cfs <- out$par[(k.psi+1):(k.psi+k.p)]
     se.p <- se[(k.psi+1):(k.psi+k.p)]
     est.p <- choose(ncol(histories),rowSums(histories))*beta.mixture( p.cfs, 1, histories)
-    cls <- "mixed.pocc"
+    cls <- "mixed.pom"
 
 } else {
 
@@ -241,7 +241,7 @@ if( p.mod.mat$mixture == "Beta.mixture" ){
     est.p <- X.p*p.coefs                            # p is nsites X nvisits X k2 here
     est.p <- apply( est.p, c(1,2), sum, na.rm=T )   #p is now nsites X nvisits
     est.p <- link(est.p)
-    cls <- "pocc"
+    cls <- "pom"
 }
 
 #   Compute estimated Psi and p

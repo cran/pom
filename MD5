@@ -1,0 +1,12 @@
+2f77481f19ba936f2cb1a2de099eb082 *DESCRIPTION
+1540489d9eb82b34eb85f22abb0a49c7 *NAMESPACE
+79046dbdb6d5d637471777ecda9927b3 *R/F.2nd.deriv.r
+fedf0c88062d2c940202684dfc08a07c *R/PO_Code_FH.r
+e7c07ff288e3351871473be55caa9aa8 *R/print_mods.r
+bc9e7c3743caf87897baacf7be385a73 *data/weta.data.rda
+7f5d6a7e155798529d48e13c9b3ee317 *man/F.2nd.deriv.Rd
+3f79ac01d428e91025edebd5926fcd60 *man/pocc-package.Rd
+5ffea5ec4b2901f95e5526db7606dfc4 *man/print.mixed.pocc.Rd
+1db4efcb6e142e2cc35885a1626ce5f9 *man/print.pocc.Rd
+8570c54ebb5f0ba29bff96785399a44e *man/siteocc.Rd
+844c7474f5ddda4ee377da1e760ebdda *man/weta.data.Rd
